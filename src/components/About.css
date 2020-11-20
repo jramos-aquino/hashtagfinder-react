@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    background: transparent url('../images/about-hero-bg.jpg') 0% 0% no-repeat padding-box;
+    font-family: 'Rubik', sans-serif;
+    color: #FFFFFF;
+  }
+   
+  .about {
+    width: 36%;
+    margin-top: 15%;
+    margin-left: 7%;
+  }
+  
+  #title {
+    font-size: 51px;
+    font-weight: bold;
+  }
+  
+  .members {
+    display: flex;
+    justify-content: center;
+    grid-gap: 2%;
+  }
+  
+  #who {
+    margin-top: 5%;
+    margin-left: 20%;
+    font-weight: bold;
+  }
+  
+  .people {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    border-radius: 50%;
+  }
+  
+  .member {
+    border: 1px solid #FFFFFF24;
+    background:#0B1A49;
+    width: 16%;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .name {
+    color: #72EFDB;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .social {
+    display: flex;
+    grid-gap: 15%;
+    width: 100%;
+    justify-content: center;
+  } 
